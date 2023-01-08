@@ -33,7 +33,7 @@ class Program
 
             if (!isMatched)
             {
-                Console.WriteLine($"!!!Content is inconsistent!!! position={initialPosition:#,0} size={size:#,0}");
+                Console.WriteLine($"!!!Content is inconsistent!!! position={initialPosition:#,0} size={size:#,0} count={count:#,0}");
                 Environment.Exit(1);
             }
         }
